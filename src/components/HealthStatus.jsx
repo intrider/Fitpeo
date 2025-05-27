@@ -1,6 +1,6 @@
 import React from 'react'
 import healthCards from '../data/Healthcards'
-import "./Styles/HealthStatus.css"
+import "./Styles/Healthstatus.css"
 function HealthStatus() {
   return (
     <>
