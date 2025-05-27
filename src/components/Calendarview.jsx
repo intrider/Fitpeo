@@ -1,5 +1,5 @@
 import React from 'react';
-import './Styles/Calendarview.css';
+import './Styles/CalendarView.css';
 import UpcomingSchedule from './Upcomingschedule';
 
 const days = ['Mon', 'Tues', 'Wed', 'Thurs', 'Fri', 'Sat', 'Sun'];
