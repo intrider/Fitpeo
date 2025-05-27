@@ -1,5 +1,5 @@
 import React from 'react';
-import "./Styles/UpcomingSchedule.css"; // Assuming you have a CSS file for styling
+import "./Styles/Upcomingschedule.css";
 const schedule = [
   {
     day: 'On Thursday',
