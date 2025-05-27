@@ -1,6 +1,6 @@
 import React from 'react'
 import ActivityData from '../data/Activitydata'
-import "./Styles/ActivityFeed.css"
+import "./Styles/Activityfeed.css"
 function ActivityFeed() {
   return (
     <>
