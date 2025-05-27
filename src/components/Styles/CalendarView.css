@@ -1,0 +1,129 @@
+.calendar-topbar{
+    position: absolute;
+    top: 10px;
+    left: 80%;
+}
+.calendar-avatar{
+    border: 1px solid #3f51b5;
+    border-radius: 20%;
+    background-color: #3f9db5;
+}
+.calendar-add-btn{
+    position: absolute;
+    top: 3%;
+    left: 40px;
+    background-color: #3f51b5;
+    color: white;
+    width: 30px;
+    height: 23px;
+    border-radius: 20%;
+}
+
+.calendar-container {
+    position: absolute;
+    bottom: 224px;
+    left: 500px;
+    width: 500px;
+  background: #e5e9eb86;
+  padding: 16px;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+.calendar-header {
+  font-weight: bold;
+  font-size: 16px;
+  margin-bottom: 16px;
+  position: relative;
+}
+h4{
+    color: #282E7AFF;
+}
+.calendar-arrows{
+    position: absolute;
+    top: 10%;
+    left: 90%;
+}
+.arrow{
+    color: #20308a;
+    padding: 3px;
+}
+.calendar-grid {
+  display: flex;
+  gap: 5px;
+}
+
+.calendar-day {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.day-label {
+  font-size: 12px;
+  color: #777;
+}
+
+.date-label {
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.time-slots {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.time-box {
+  font-size: 10px;
+  padding: 3px 6px;
+  background: #f0f0f0;
+  border-radius: 6px;
+  text-align: center;
+}
+
+.time-box.selected {
+  background-color: #3f51b5;
+  color: white;
+}
+
+.appointments {
+  margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.appointment {
+  background-color: #e5e9eb;
+  border-radius: 12px;
+  padding: 12px;
+  margin-top: 8px;
+}
+
+.dentist {
+  background-color: #4c51bf;
+  color: white;
+  font-size: small;
+  width: 180px;
+  height: 50px;
+  border-radius: 20px;
+}
+p {
+  margin: 0;
+}
+span {
+  margin: 0;
+}
+
+.physio {
+  background-color: #dfe3f0;
+  width: 260px;
+  font-size: small;
+    border-radius: 20px;
+    background-color: #324e9c28;
+  
+
+}

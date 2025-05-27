@@ -1,0 +1,39 @@
+.anatomy-section {
+  background-color: #e5e9eb86;
+  height: 40vh;
+  width: 90%;
+  border-radius: 15px;
+  box-shadow: 0px 4px 12px rgba(0,0,0,0.05);
+  position: relative;
+  
+}
+
+.image-wrapper {
+  position: relative;
+  top: 10%;
+}
+
+.image-wrapper img {
+  max-width: 220px;
+}
+
+.label {
+  position: absolute;
+  color: #fff;
+  font-size: 12px;
+  padding: 6px 12px;
+  border-radius: 10px;
+  white-space: nowrap;
+}
+
+.label.chest {
+  top: 25%;
+  left: 90%;
+  transform: translate(-50%, -50%);
+}
+
+.label.leg {
+  bottom: 27%;
+  left: 24%;
+  transform: translate(-50%, 0%);
+}
